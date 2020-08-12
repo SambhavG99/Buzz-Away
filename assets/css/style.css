@@ -1,0 +1,112 @@
+html,body {
+    color: #fff  !important;
+    font-family: 'Baloo Tamma 2', cursive !important;
+}
+.heading{
+    background: white;
+    color: #0575E6 !important ;
+    z-index: 1;
+    text-align: center;
+}
+.footer{
+    position: fixed;
+    text-align: center;
+    background: white;
+    color: #0575E6 !important ;
+    bottom: 0;
+    padding: 8px;
+    width: 100%;
+}
+.rotate {
+    left: 210px;
+    top: 22px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+.row{
+    margin-left: unset !important;
+    margin-right: unset !important;
+}
+.row li{
+    font-size:28px;
+    line-height: 40px;
+}
+iframe{
+    border: 2px solid #fff ;
+    border-radius: 4px;
+    padding: 11px;
+}
+.wave-bg{
+    position: absolute;
+    display: block;
+    margin: auto;
+    z-index: -1;
+    width: 100%;
+}
+.buzz-btn{
+    background: #ffffff;
+    color: #0575E6 ;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5.5px;
+    padding:15px 50px;
+    margin: 7px auto;
+   }
+.download-apk {
+  color: #0575E6;
+}
+.ppt{
+    margin-left: 15px;
+    color:#0575E6 ;
+}
+/* .first-column{
+    padding-left:3% !important;
+}
+.second-column {
+    padding-left: 4% !important;
+} */
+body {
+        color: #ffffff;
+        
+        background: #0575E6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(45deg, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(45deg, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+.space-gap{
+    height: 110px;
+}
+i{
+    margin-right: 15px;
+}
+
+@media only screen and (max-width:768px){
+    body{
+        height: unset;
+    }
+    .space-gap{
+        height: 20px;
+    }
+    .row li{
+        font-size:18px;
+    }
+    .second-column{
+        margin-top: 15px;
+        padding-bottom: 55px;
+    }
+    .buzz-btn{
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+    .ppt{
+        margin-left: 12px;
+    }
+    i{
+        margin-right: 1.5px;
+    }
+}
